@@ -1,0 +1,31 @@
+:root {
+  --surface: 50 16% 97%;
+  --surface-elevated: 0 0% 100%;
+  --text-primary: 0 0% 7%;
+  --text-muted: 48 6% 58%;
+  --border: 60 4% 85%;
+  --accent-terracotta: 18 63% 55%;
+  --accent-emerald: 175 69% 24%;
+  --accent-brass: 47 43% 55%;
+  --danger: 8 70% 55%;
+  --success: 170 70% 30%;
+  --shadow-color: 174 71% 25%;
+}
+
+[data-theme="dark"] {
+  --surface: 200 12% 7%;
+  --surface-elevated: 195 12% 12%;
+  --text-primary: 0 0% 96%;
+  --text-muted: 154 10% 62%;
+  --border: 180 4% 24%;
+  --accent-terracotta: 18 63% 55%;
+  --accent-emerald: 175 69% 36%;
+  --accent-brass: 47 43% 59%;
+  --danger: 8 70% 62%;
+  --success: 170 70% 42%;
+  --shadow-color: 174 71% 35%;
+}
+
+:root {
+  color-scheme: light dark;
+}
